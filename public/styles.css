@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.post img {
+  max-width: 100%;
+}
+
+button.edit {
+  margin-top: 10px;
+  background-color: #f0ad4e;
+}
+
+button.delete {
+  margin-top: 10px;
+  background-color: #d9534f;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
