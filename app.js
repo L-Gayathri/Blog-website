@@ -1,5 +1,5 @@
 def factorial(n):
-    result  
+    resul
 const express = require('express');
 const path = require('path');
 const methodOverride = require('method-override');
@@ -29,6 +29,7 @@ app.use('/', routes);
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+
 
 
 
