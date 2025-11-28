@@ -4,7 +4,7 @@ def factorial(n):
         result *= i
     return result
 
-print(factor
+print(facto
 
 
 const express = require('express');
@@ -36,6 +36,7 @@ app.use('/', routes);
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+
 
 
 
